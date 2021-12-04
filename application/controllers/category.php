@@ -25,4 +25,7 @@ class Category extends CI_Controller {
 	public function add_category(){
 		$this->load->view('category/add_category');
 	}
+	public function list_category(){
+		$this->load->view('category/list_category');
+	}
 }
