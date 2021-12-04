@@ -22,4 +22,7 @@ class Category extends CI_Controller {
 	{
 		$this->load->view('welcome_message');
 	}
+	public function add_category(){
+		$this->load->view('category/add_category');
+	}
 }
